@@ -23,7 +23,7 @@ id=null;
     notasServices.getnota(this.id)
     .valueChanges().subscribe(nota =>{
       console.log(nota)
-      this.nota = nota;
+      this.nota = nota
     });
     }
   }
